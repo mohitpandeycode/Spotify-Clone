@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="home">
+                <i class="ri-close-circle-line icon arr close"></i>
+                <div class="logo"><i class="ri-spotify-fill" style="color: rgb(15, 214, 15);"></i><a>Spotify'</a></div>
+                <div class="icon"><i class="ri-home-5-fill"><a>Home</a></i></div>
+                <div class="icon"><i class="ri-search-line"><a>Search</a></i></div>
+            </div>
+
+            <div class="library">
+                <div class="heading">
+                    <i class="ri-folder-open-line icon"><a>Your Library</a></i>
+                    <i class="ri-arrow-down-s-line icon plus"></i>
+                </div>
+                <div class="pop">
+                    <div class="songList">
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="first">
+                        <h4>Create your first playlist</h4>
+                        <h5>It's easy, we'll help you</h5>
+                        <button class="btn">Create playlist</button>
+                    </div>
+                    <div class="first">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <h5>We'll keep you updated on new episodes</h5>
+                        <button class="btn">Browse podcast</button>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <ul>
+                        <li><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></li>
+                        <li><a href="https://www.spotify.com/in-en/privacy/"><span>Privacy Center</span></a></li>
+                        <li><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy
+                                    Policy</span></a></li>
+                        <li><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                        </li>
+                        <li><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></li>
+                    </ul>
+                    <button class="btnn"><i class="ri-global-line"></i><span>English</span></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="nav">
+                <div class="navigation">
+                    <i style="cursor: pointer;" class="ri-menu-line hamburger arr"></i>
+                    <i class="ri-arrow-left-s-line arr"></i>
+                    <i class="ri-arrow-right-s-line arr"></i>
+                </div>
+                <div class="acc">
+                    <button class="btns">Sign up</button>
+                    <button class="btnl">Log in</button>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="frame">
+                <div class="up">
+                    <h2>Spotify Playlist</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="spotifyplaylist">
+                   
+                </div>
+                <div class="playbar">
+                    <div class="songName"></div>
+                    <div class="plays">
+                        <i id="prev" class="ri-skip-left-fill"></i>
+                        <i id="play" class="ri-play-circle-line"></i>
+                        <i id="next" class="ri-skip-right-fill"></i>
+                    </div>
+                    <div class="two">
+                        <div class="songTime"></div>
+                        <i style="cursor: pointer;" class="ri-volume-up-line volume"></i>
+                        <div class="range">
+                            <input style="filter: invert(1);cursor: pointer;" type="range" name="volume" id="">
+                        </div>
+                    </div>
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
