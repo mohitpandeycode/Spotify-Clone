@@ -86,6 +86,7 @@ body {
 }
 
 .library {
+    margin-top: 25px;
     height: 80%;
     background-color: #121212;
     border-radius: 10px;

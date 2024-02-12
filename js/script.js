@@ -139,9 +139,9 @@ async function displayAlbums() {
 
 async function main() {
     // get the list of all songs
-    let songs = await getSongs("songs/ncs")
+    let songs = await getSongs("songs/Ringtunes")
     playMusic(songs[0], true)  //by default the 1st song on playbar...
-
+ 
     // display alll the albums of folders on the page...
     displayAlbums()
 
